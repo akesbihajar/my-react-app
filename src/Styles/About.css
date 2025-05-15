@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.aboutBottom {
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.aboutBottom h1 {
+  font-size: 2.8rem;
+  color:  #9b643d;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fafafa; 
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.aboutBottom p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

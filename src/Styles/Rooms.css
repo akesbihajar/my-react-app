@@ -1,0 +1,86 @@
+/* Global */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Conteneur principal */
+  .rooms-container {
+    padding: 2rem;
+  }
+  
+  /* Titre principal */
+  .rooms-container h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    color: #9b643d;
+    text-align: center;
+  }
+  
+  /* Grille des cartes */
+  .rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Carte chambre */
+  .room-card {
+    border: 1px solid  #9b643d;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .room-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .room-card h2 {
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .room-card p {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .room-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+  }
+  
+  /* Bouton Réserver */
+  .reserve-button {
+    margin-top: 1rem;
+    background-color: #9b643d;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .reserve-button:hover {
+    background-color: #333;
+  }
+  
