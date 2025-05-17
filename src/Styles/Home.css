@@ -1,7 +1,8 @@
 .home {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
+    margin-top: 8%;
     justify-content: center;
     /*align-items: flex-start;  correction ici */
     flex-direction: column;
@@ -10,40 +11,12 @@
     background-size: cover;
     
 }
-.title{
-    text-align: center;
-    /* margin-bottom: 300PX; */
-    font-size: 80PX;
-     font-family: Bebas Neue;
-     color:#9b643d;
-   
-}
-.welcome{
-    text-align: center;
-    /* margin-top: 10PX; */
-    font-size: 50PX;
-     font-family: Bebas Neue;
-     color:#73bad2;
-   
-}
+
+
 .headerContainer{
     margin-bottom: 200PX
 }
-.hero-text {
-    font-family: 'Georgia', serif;
-    font-size: 1.5rem;
-    color: #8B4513; /* brun chaleureux */
-    background-color: rgba(255, 248, 240, 0.9); /* fond crème léger */
-    padding: 1.5rem 1rem;
-    border-left: 5px solid #D4A373; /* touche dorée/orangée typique du Maroc */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    /* margin: 2rem auto; */
-    text-align: left;
-    margin-top: 12rem ; 
-    text-align: left;
-  }
+
   
 
 

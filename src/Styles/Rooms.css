@@ -40,6 +40,9 @@ body {
   
   .room-card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+ 
   }
   
   .room-card img {
@@ -47,6 +50,7 @@ body {
     height: 180px;
     object-fit: cover;
     border-radius: 8px;
+
   }
   
   .room-card h2 {
